@@ -30,6 +30,8 @@ This project allows users to register, log in, and borrow or return books, with 
 
 > Protected API endpoints (authenticated users only)
 
+> API endpoints were tested using PowerShell (curl commands) to validate authentication and protected routes. 
+
 # 📖 Book Management
 
 > CRUD operations on books
