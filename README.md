@@ -122,6 +122,7 @@ python manage.py runserver
 🔹 1️⃣ Admin Login Page
 
 Admin Login – Django Administration
+
 Admin authentication screen to access the admin portal.
 
 📁 admin-login.png
@@ -129,6 +130,7 @@ Admin authentication screen to access the admin portal.
 🔹 2️⃣ Admin Dashboard
 
 Admin Dashboard Overview
+
 Django Admin panel showing Users, Books, and Borrows.
 
 📁 admin-dashboard.png
@@ -136,6 +138,7 @@ Django Admin panel showing Users, Books, and Borrows.
 🔹 3️⃣ Book Management (CRUD)
 
 Book Management – Update Book (Admin CRUD)
+
 Admin creating/updating book details such as title, author, ISBN, and copies.
 
 📁 book-crud-update.png
@@ -143,6 +146,7 @@ Admin creating/updating book details such as title, author, ISBN, and copies.
 🔹 4️⃣ Borrow Records (Admin View)
 
 Borrow Records – Admin View
+
 Admin view of all borrow and return transactions.
 
 📁 borrow-records.png
@@ -150,6 +154,7 @@ Admin view of all borrow and return transactions.
 🔹 5️⃣ Server Running & API Logs
 
 Server Running & API Request Logs
+
 Django development server running successfully and logging API requests.
 
 📁 server-logs.png
@@ -157,6 +162,7 @@ Django development server running successfully and logging API requests.
 🔹 6️⃣ User Registration API (PowerShell)
 
 User Registration API – PowerShell
+
 User registration tested via PowerShell using curl and JSON request body.
 
 📁 powershell-user-registration.png
@@ -164,6 +170,7 @@ User registration tested via PowerShell using curl and JSON request body.
 🔹 7️⃣ JWT Login API (PowerShell)
 
 JWT Login API – PowerShell
+
 User login via PowerShell returning JWT access and refresh tokens.
 
 📁 powershell-jwt-login.png
@@ -171,6 +178,7 @@ User login via PowerShell returning JWT access and refresh tokens.
 🔹 8️⃣ Borrow Book API (PowerShell)
 
 Borrow Book API – PowerShell
+
 Authenticated user borrowing a book using JWT token in Authorization header.
 
 📁 powershell-borrow-book.png
