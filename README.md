@@ -72,7 +72,7 @@ GET	      /api/my-borrows/	        View borrow history
 # 🛠️ Setup Instructions
 
 1️⃣ Clone the Repository
-git clone https://github.com/your-username/library-management-api.git
+git clone https://github.com/tessajohnson1/Backend-Task-Mini-Library-Management-API-Django-
 cd library-management-api
 
 2️⃣ Create Virtual Environment
