@@ -52,21 +52,33 @@ This project allows users to register, log in, and borrow or return books, with 
 
 # 🗂️ API Endpoints
 Authentication
+
 Method	 Endpoint	   Description
+
 POST	/api/register/	Register a new user
+
 POST	/api/login/  	Login and receive JWT tokens
 
 Books
+
 Method	 Endpoint	        Access   	      Description
+
 GET	    /api/books/	      Authenticated	  List all books
+
 POST	  /api/books/	      Admin only	    Create a book
+
 PUT	    /api/books/{id}/	Admin only	    Update a book
+
 DELETE	/api/books/{id}/	Admin only	    Delete a book
 
 Borrow & Return
+
 Method	   Endpoint	                Description
+
 POST	    /api/borrow/{book_id}/	  Borrow a book
+
 POST	    /api/return/{book_id}/	  Return a book
+
 GET	      /api/my-borrows/	        View borrow history
 
 # 🛠️ Setup Instructions
@@ -85,6 +97,7 @@ pip install -r requirements.txt
 
 4️⃣ Run Migrations
 python manage.py makemigrations
+
 python manage.py migrate
 
 5️⃣ Create Superuser
