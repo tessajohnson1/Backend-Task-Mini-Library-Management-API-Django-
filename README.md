@@ -118,4 +118,59 @@ python manage.py runserver
 
 > Authorization: Bearer <access_token>
 
+# 📸 Output Screenshots –  (End-to-End Flow)
+🔹 1️⃣ Admin Login Page
 
+Admin Login – Django Administration
+Admin authentication screen to access the admin portal.
+
+📁 admin-login.png
+
+🔹 2️⃣ Admin Dashboard
+
+Admin Dashboard Overview
+Django Admin panel showing Users, Books, and Borrows.
+
+📁 admin-dashboard.png
+
+🔹 3️⃣ Book Management (CRUD)
+
+Book Management – Update Book (Admin CRUD)
+Admin creating/updating book details such as title, author, ISBN, and copies.
+
+📁 book-crud-update.png
+
+🔹 4️⃣ Borrow Records (Admin View)
+
+Borrow Records – Admin View
+Admin view of all borrow and return transactions.
+
+📁 borrow-records.png
+
+🔹 5️⃣ Server Running & API Logs
+
+Server Running & API Request Logs
+Django development server running successfully and logging API requests.
+
+📁 server-logs.png
+
+🔹 6️⃣ User Registration API (PowerShell)
+
+User Registration API – PowerShell
+User registration tested via PowerShell using curl and JSON request body.
+
+📁 powershell-user-registration.png
+
+🔹 7️⃣ JWT Login API (PowerShell)
+
+JWT Login API – PowerShell
+User login via PowerShell returning JWT access and refresh tokens.
+
+📁 powershell-jwt-login.png
+
+🔹 8️⃣ Borrow Book API (PowerShell)
+
+Borrow Book API – PowerShell
+Authenticated user borrowing a book using JWT token in Authorization header.
+
+📁 powershell-borrow-book.png
