@@ -108,7 +108,7 @@ python manage.py runserver
 
 # 🔑 Admin Panel
 
-> URL: http://127.0.0.1:8000/admin/
+> URL: http://127.0.0.1:8000/admin/login/?next=/admin/
 
 > Used for managing books and borrow records
 
